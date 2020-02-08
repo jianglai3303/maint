@@ -1,0 +1,77 @@
+.banner-slide{
+    display: flex;
+    .text-mask-part{
+        flex: 1;
+        position: relative;
+        display: flex;
+        .text-mask-part-left{
+            position: relative;
+            flex: 8;
+        }
+        .text-mask-part-margin{
+            position: relative;
+            flex: 2;
+        }
+        .background-image {
+            background: url(https://magnetoitsolutions.com/wp-content/uploads/2020/01/Product-Photography-1024x536.jpg) no-repeat;
+            background-size: cover;
+            position: relative;
+            width: 100%;
+            padding-bottom: 120%;
+            &::after{
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(233, 188, 0, 0.8);
+            }
+        }
+        svg { 
+            width: 100%;
+            position:absolute;
+            top: 0;
+            left: 0; // needed for FF, Safari, Edge
+            height: 100%;
+        }
+        svg text {
+            font-weight: 900;
+            text-transform: uppercase;
+            font-size: 150px;
+        }
+        svg rect {
+            fill: white;
+        }
+        svg > rect {
+            -webkit-mask: url(#mask);
+            mask: url(#mask);
+        }
+    }
+    .intro-part{
+        flex: 1;
+        .intro-title{
+            letter-spacing: 4px;
+            font-size: 14px;
+            font-weight: 400;
+            color: #e9bc00;
+            .short-line{
+                border-top: 1px solid rgb(233, 188, 0);
+                margin-right: 10px;
+                width: 30px;
+                display: inline-block;
+                vertical-align: middle;
+            }
+            .title{
+                vertical-align: middle;
+            }
+        }
+        .intro-des{
+            font-size: 45px;
+            font-weight: 700;
+            width: 80%;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    }
+}
