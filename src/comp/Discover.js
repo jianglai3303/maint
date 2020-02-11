@@ -88,7 +88,7 @@ export default class Discover extends React.Component {
                         </p>
                     </li>
                     <li className="ds-list-item">
-                        <h4>DESIGND’INTERFACES</h4>
+                        <h4>DESIGND’INTERFACES </h4>
                         <div className="icon-with-line">
                             <svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
                             <path d="M0 245.156L174.349 169.453V205.688L31.3937 265.497L174.349 325.709V362.079L0 286.241V245.156ZM309.221 66H349.103L220.025 446H180.143L309.221 66ZM337.651 323.824L480.606 264.015L337.651 203.802V167.567L512 243.136V284.221L337.651 359.924V323.824Z"></path>
