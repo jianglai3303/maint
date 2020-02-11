@@ -1,0 +1,68 @@
+.discover-wapper{
+    max-width: 1000px;
+    margin: 100px auto;
+    .top-part{
+        width: 50%;
+    }
+    h3{
+        color: rgba(233, 188, 0, 0.8);
+        letter-spacing: 4px;
+        font-size: 12px;
+        font-weight: 500;
+        margin: 5px 0;
+    }
+    h2{
+        color: #383838;
+        font-size: 32px;
+        font-weight: 900;
+        margin: 0;
+    }
+    P{
+        color: #8c8c8c;
+        line-height: 28px;
+        font-weight: 400;
+        font-size: 13px;
+        margin-top: 25px;
+    }
+    ul.ds-list{
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+        li.ds-list-item{
+            list-style: none;
+            width: 25%;
+            margin: 50px 0 0;
+            padding: 0 20px 0 0;
+            box-sizing: border-box;
+            h4{
+                font-weight: 500;
+                color: rgba(233, 188, 0, 0.8);
+                font-size: 15px;
+            }
+            p{
+                color: #333;
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 24px;
+            }
+            .icon-with-line{
+                svg{
+                    width: 20px;
+                    height: 20px;
+                    fill: rgba(233, 188, 0, 0.8);
+                    vertical-align: middle;
+                }
+                &::after{
+                    content: "";
+                    width: 50px;
+                    border-top: 1px solid #ccc;
+                    vertical-align: middle;
+                    display: inline-block;
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}

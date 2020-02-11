@@ -16,7 +16,6 @@ export default class Banner extends React.Component {
         const startPosition = 0;
         const endPosition = 20;
         const val = easeInOutBack(elapsed, startPosition, endPosition, duration);
-        console.log(elapsed,val);
         this.setState({
             bannerTextMove: val - 50
         });
@@ -58,7 +57,12 @@ export default class Banner extends React.Component {
                     <div className="intro-part">
                         <h2 className="intro-title"><span className="short-line"></span><span className="title">MAIN</span></h2>
                         <h3 className="intro-des">Festival international des Séries de Cannes</h3>
+                        <div className="call2action">
+                            <a className="btn-part">Qui sommes nous</a>
+                        </div>
                     </div>
+                    
+                    
                 </div>
             </div>
         );
