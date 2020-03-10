@@ -7,7 +7,7 @@
         z-index: 1;
         left: 0;
         height: 100%;
-        background: url(https://magnetoitsolutions.com/wp-content/uploads/2020/01/Product-Photography-1024x536.jpg) no-repeat;
+        background: url(/working.jpg) no-repeat;
         background-size: cover;
         &::after{
             content: "";
@@ -24,7 +24,10 @@
         position: relative;
         background-color: #252828;
         z-index: 2;
-        margin: 0 auto;
+        margin: 0 auto 0;
+        @media (max-width: 1000px) {
+            max-width: 750px;
+        }
     }
     .intro-frame{
         background-color: #252828;
@@ -60,7 +63,7 @@
             width: 375px;
             background-color: #333;
             .skills-top-image{
-                background: url(https://sparkk.fr/images/homepage/pic-skills.jpg);
+                background: url(/coding.jpg);
                 background-size: cover;
                 height: 300px;
                 position: relative;
@@ -106,6 +109,48 @@
                     }
                 }
             }
+        }
+        @media (max-width: 1000px) {
+            margin: 40px auto 0;
+            .left-part{
+                padding: 60px 20px;
+                h2{
+                    font-size: 26px;
+                }
+            }
+            .right-sklls{
+                top: -40px;
+                width: 315px;
+                .skills-intro{
+                    padding: 30px;
+                }
+            }
+        }
+        @media(max-width:768px){
+            flex-direction: column;
+            .left-part{
+                width: 100%;
+                box-sizing: border-box;
+            }
+            .right-sklls{
+                position: relative;
+                width: auto;
+                font-size: 0;
+                top: auto;
+                right: auto;
+                .skills-intro{
+                    width: 80%;
+                    display: inline-block;
+                    box-sizing: border-box;
+                    vertical-align: top;
+                }
+                .skills-top-image{
+                    width: 20%;
+                    display: inline-block;
+                    vertical-align: top;
+                }
+            }
+
         }
     }
 }

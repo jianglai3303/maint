@@ -5,7 +5,7 @@ export default class Header extends React.Component {
         return (
             <div className="header-wapper">
                 <img src="/maint.png" className="logo" alt="logo"></img>
-                <ul><li>services</li><li>contact us</li></ul>
+                <ul><li><a href="#services">services</a></li><li><a href="#contact">contact us</a></li></ul>
             </div>
         )
     }

@@ -8,6 +8,7 @@
     }
     ul{
         list-style: none;
+        padding-left: 0;
         li{
             list-style: none;
             display: inline-block;
@@ -15,6 +16,24 @@
             font-weight: 500;
             letter-spacing: 2px;
             font-size: 14px;
+            a{
+                text-decoration: none;
+                color: #383838;
+            }
+        }
+    }
+    @media (max-width: 1000px) {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    @media (max-width: 425px) {
+        .logo{
+            width: 90px;
+        }
+        ul{
+            li{
+                margin-left: 10px;
+            }
         }
     }
 }
