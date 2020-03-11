@@ -13,7 +13,7 @@ export default class Contact extends React.Component {
                             <li><img src="/location.png"/><a href="tel:+16473239298">(+1) 647 323 9298</a></li>
                         </ul>
                         <div className="describe-part">
-                            <p>We are .l.....</p>
+                            <p>We are a team of experts that works on striking projects with passion.</p>
                             <p>Do not hesitate to contact us to discuss your project. We will offer you the most appropriate solution</p>
                         </div>
                     </div>
