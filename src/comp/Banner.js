@@ -15,8 +15,8 @@ export default class Banner extends React.Component {
                 x: -40,
                 y: 115,
             }, {
-                origX: -20,
-                x: -20,
+                origX: 0,
+                x: 0,
                 y: 115,
             }, {
                 origX: 10,
@@ -27,7 +27,7 @@ export default class Banner extends React.Component {
                 x: 0,
                 y: 110,
             }, {
-                x: 10,
+                x: 16,
                 y: 110,
             }, {
                 x: 20,
@@ -143,7 +143,7 @@ export default class Banner extends React.Component {
                                             <defs>
                                             <mask id="mask2" x="0" y="0" width="100%" height="100%" >
                                             <rect x="0" y="0" width="100%" height="100%" />
-                                            <text x={pos[1].x}  y={pos[1].y}>B</text>
+                                            <text x={pos[1].x}  y={pos[1].y}>S</text>
                                             </mask>
                                         </defs>
                                         <rect x="0" y="0" width="100%" height="100%" />
@@ -156,7 +156,7 @@ export default class Banner extends React.Component {
                                 </div>
                                 <div className="intro-part">
                                     <h2 className="intro-title"><span className="short-line"></span><span className="title">MAINT</span></h2>
-                                    <h3 className="intro-des">Brand Identity Which Attracts Target Customers</h3>
+                                    <h3 className="intro-des"> Reliable IT System Solutions</h3>
                                     <div className="call2action">
                                         <a className="btn-part" href="#contact">Contact Us</a>
                                     </div>
